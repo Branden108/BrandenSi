@@ -1,24 +1,34 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    color: #333;
-    margin: 20px;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    background-color: blue;
+    width: 50%;
+    margin: 40px auto;
+    padding: 20px;
+    border: 10px solid red;
 }
 
 h1 {
-    color: navy;
-	text-align: center;
+    font-size: 32px;
+    font-weight: bold;
 }
 
-#introduction, #education {
-    background-color: lightblue;
-    padding: 15px;
-    margin: 10px;
-    border: 2px solid darkblue;
+h2 {
+    font-size: 24px;
+    font-weight: bold;
 }
 
-#education {
-    background-color: lightgreen;
-	padding: 15px;
-    border: 2px solid darkgreen;
+section {
+    text-align: left;
+    margin-top: 20px;
+}
+
+ul {
+    text-align: left;
+    margin-left: 20px;
 }
