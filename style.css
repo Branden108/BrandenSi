@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: blue;
     color: white;
     text-align: center;
     margin: 0;
@@ -8,32 +8,31 @@ body {
 }
 
 .container {
-    background-color: blue;
     width: 80%;
-    max-width: 800px;
-    margin: 40px auto;
+    max-width: 900px;
+    margin: 50px auto;
     padding: 40px;
-    border: 10px solid red;
+    border: 15px solid red;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 42px;
     font-weight: bold;
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
+}
+
+p {
+    font-size: 22px;
+    line-height: 1.8;
 }
 
 section {
     text-align: left;
     margin-top: 20px;
-    line-height: 1.6;
-}
-
-ul {
-    text-align: left;
-    margin-left: 20px;
+    padding: 20px;
 }
