@@ -7,6 +7,7 @@ body {
 
 h1 {
     color: navy;
+	text-align: center;
 }
 
 #introduction, #education {
@@ -18,4 +19,6 @@ h1 {
 
 #education {
     background-color: lightgreen;
+	padding: 15px;
+    border: 2px solid darkgreen;
 }
